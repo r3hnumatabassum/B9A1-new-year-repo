@@ -1,0 +1,190 @@
+header {
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(./Image/Banner-Image.png);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+header h3 {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Merriweather", serif;
+}
+
+header h1 {
+  margin-top: 15px;
+  font-size: 72px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+}
+.categories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+}
+.categories h1 {
+  font-size: 88px;
+  font-weight: 700;
+  color: red;
+}
+
+.categories h5 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+}
+.categories h3 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.mid-night-container {
+  margin-top: 120px;
+  height: 600px;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.897),
+      rgba(0, 0, 0, 0.329)
+    ),
+    url(./Image/Vectorrr.png);
+  border-radius: 15px;
+  padding: 0 130px;
+  gap: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.mid-night-text h1 {
+  font-size: 64px;
+  font-weight: 900;
+}
+.mid-night-text p {
+  margin-top: 24px;
+  margin-bottom: 48px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.mid-night-text button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.join-container {
+  margin-top: 120px;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(255, 232, 232);
+  height: 482px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.join-container h3 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.join-container button {
+  border: none;
+  background-color: red;
+  padding: 16px 32px;
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-top: 24px;
+}
+
+.Portfolio-container {
+  margin-top: 120px;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-text h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: red;
+}
+.portfolio-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+
+.img-container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer-container {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fotter {
+  background-color: black;
+  padding: 120px 140px;
+  height: 610px;
+  color: white;
+  margin-top: 120px;
+}
+.call {
+  display: flex;
+  align-items: center;
+}
+.call a {
+  text-decoration: none;
+  color: white;
+}
+hr {
+  margin-top: 50px;
+}
+.icons {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.copyright {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
